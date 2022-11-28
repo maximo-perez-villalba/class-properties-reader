@@ -24,7 +24,7 @@ class YourCustomClassLeaf extends YourCustomClassNode
 }
 ```
 
-## Como se usa
+### Como usar
 ```php
 $allProperties = ClassPropertiesReader::getAll(YourCustomClassLeaf::class);
 print_r($allProperties);
@@ -32,55 +32,43 @@ print_r($allProperties);
 
 **Salida**   
 ```bash
+Array
 (
-    [propertyArrayNullable] => ReflectionProperty Object
+    [propertyObjectOrNull] => ReflectionProperty Object
         (
-            [name] => propertyArrayNullable
-            [class] => Test\MPV\Tools\Reflection\Model\Leaf
+            [name] => propertyObjectOrNull
+            [class] => YourCustomClassLeaf
         )
 
-    [propertyDateTimeNullable] => ReflectionProperty Object
+    [propertyArray] => ReflectionProperty Object
         (
-            [name] => propertyDateTimeNullable
-            [class] => Test\MPV\Tools\Reflection\Model\Node
-        )
-
-    [propertyObjectNullable] => ReflectionProperty Object
-        (
-            [name] => propertyObjectNullable
-            [class] => Test\MPV\Tools\Reflection\Model\Node
-        )
-
-    [propertyNodeNullable] => ReflectionProperty Object
-        (
-            [name] => propertyNodeNullable
-            [class] => Test\MPV\Tools\Reflection\Model\Node
-        )
-
-    [propertyStringNullable] => ReflectionProperty Object
-        (
-            [name] => propertyStringNullable
-            [class] => Test\MPV\Tools\Reflection\Model\Root
-        )
-
-    [propertyInt] => ReflectionProperty Object
-        (
-            [name] => propertyInt
-            [class] => Test\MPV\Tools\Reflection\Model\Root
-        )
-
-    [propertyFloat] => ReflectionProperty Object
-        (
-            [name] => propertyFloat
-            [class] => Test\MPV\Tools\Reflection\Model\Root
+            [name] => propertyArray
+            [class] => YourCustomClassNode
         )
 
     [propertyBool] => ReflectionProperty Object
         (
             [name] => propertyBool
-            [class] => Test\MPV\Tools\Reflection\Model\Root
+            [class] => YourCustomClassNode
         )
 
+    [propertyFloat] => ReflectionProperty Object
+        (
+            [name] => propertyFloat
+            [class] => YourCustomClassRoot
+        )
+
+    [propertyInt] => ReflectionProperty Object
+        (
+            [name] => propertyInt
+            [class] => YourCustomClassRoot
+        )
+
+    [propertyString] => ReflectionProperty Object
+        (
+            [name] => propertyString
+            [class] => YourCustomClassRoot
+        )
 )
 ```
 
