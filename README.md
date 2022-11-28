@@ -25,6 +25,7 @@ class YourCustomClassLeaf extends YourCustomClassNode
 ```
 
 ### Como usar
+Invocar el método [ClassPropertiesReader::getAll](/MPV/Tools/Reflection/ClassPropertiesReader.php#L15)(string $classname), retorna un ReflectionProperty[].
 ```php
 $allProperties = ClassPropertiesReader::getAll(YourCustomClassLeaf::class);
 print_r($allProperties);
