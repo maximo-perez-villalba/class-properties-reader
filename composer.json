@@ -1,6 +1,6 @@
 {
     "name": "maximo-perez-villalba/class-properties-reader",
-    "description": "La clase lee vía reflexión todos las propiedades de una clase incluyendo las propiedaes de su jerarquía.",
+    "description": "La clase lee vía reflexión todos las propiedades de una clase incluyendo las propiedades privadas de su jerarquía.",
     "type": "library",
     "license": "proprietary",
     "authors": 
@@ -10,7 +10,7 @@
             "email": "maximo.villalba@gmail.com"
         }
     ],
-    "version": "1.1.0",
+    "version": "1.1.2",
     "minimum-stability": "stable",
     "autoload": 
     {
