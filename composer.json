@@ -1,0 +1,38 @@
+{
+    "name": "maximo-perez-villalba/class-properties-reader",
+    "description": "La clase lee vía reflexión todos las propiedades de una clase incluyendo las propiedaes de su jerarquía.",
+    "type": "library",
+    "license": "proprietary",
+    "authors": 
+    [
+        {
+            "name": "Máximo Perez Villalba",
+            "email": "maximo.villalba@gmail.com"
+        }
+    ],
+    "version": "1.0.0",
+    "minimum-stability": "stable",
+    "autoload": 
+    {
+        "psr-4": 
+        {
+            "MPV\\Tools\\Reflection\\": "src/MPV/Tools/Reflection/"
+        }
+    },
+    "autoload-dev": 
+    {
+        "psr-4": 
+        {
+            "Test\\MPV\\Tools\\Reflection\\": "tests/Test/MPV/Tools/Reflection/"
+        }
+    },
+    "require": 
+    {
+        "php": ">=8.1"
+    },
+    "require-dev": 
+    {
+        "phpunit/phpunit": "^9.5"
+    },
+    "prefer-stable": true
+}
